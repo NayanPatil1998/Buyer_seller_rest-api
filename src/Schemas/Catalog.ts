@@ -4,6 +4,9 @@ import { IProductModel } from "./product";
 export interface ICatalogModel extends Document {
   _id: string;
   sellerId: string;
+  products?: (IProductModel & Required<{
+    _id: string;
+}>)[]
 }
 
 const CatalogSchema: Schema = new Schema({
