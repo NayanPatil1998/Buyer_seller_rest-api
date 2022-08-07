@@ -8,7 +8,7 @@ const initdb = async () => {
   }
 
   try {
-      await Mongoose.connect(process.env.DATABASE_URL);
+      await Mongoose.connect(process.env.DATABASE_URL, );
       console.log(Mongoose.connections[0].readyState);
 
     // await mongoose.connect('mongodb://localhost:27017/test');
