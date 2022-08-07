@@ -19,6 +19,7 @@
     yarn start
    ```
 7. Server will start on PORT 8080
+8. For docs of Postman, import hybr1d.postman_collection.json file in Postman from repository
    
 
 
